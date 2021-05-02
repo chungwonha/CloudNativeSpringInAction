@@ -11,6 +11,12 @@ spring:
     timeout: 500ms
   cloud:
     gateway:
+      default-filters:
+        - name: RequestRateLimiter
+          args:
+            redis-rate-limiter.replenishRate: 10 # this is 10 tokens / second
+            redis-rate-limiter.burstCapacity: 20
+            redis-rate-limiter.requestedTokens: 1 #each request costs 1 token
       routes:
         - id: catalog-route
           uri: ${CATALOG_SERVICE_URL:http://localhost:9002}/books
@@ -32,3 +38,4 @@ spring:
 logging:
   level:
     io.github.resilience4j: DEBUG
+    com.polarbookshop.edgeservice: DEBUG

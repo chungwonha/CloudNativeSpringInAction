@@ -4,6 +4,11 @@ server:
     connection-timeout: 5s
   shutdown: graceful
 spring:
+  redis:
+    connect-timeout: 5s
+    host: localhost
+    port: 6379
+    timeout: 500ms
   cloud:
     gateway:
       routes:

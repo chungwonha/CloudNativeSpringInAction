@@ -1,0 +1,6 @@
+/catalog-service/.gradle/
+/catalog-service/build/
+
+/order-service/.gradle/
+/order-service/build/
+/order-service/build/

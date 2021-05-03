@@ -4,6 +4,11 @@ server:
     connection-timeout: 5s
   shutdown: graceful
 spring:
+  session:
+    store-type: redis
+    timeout: 10m
+    redis:
+      namespace: polar:edge
   redis:
     connect-timeout: 5s
     host: localhost

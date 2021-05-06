@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "polar",
+      "type": "com.polarbookshop.orderservice.book.BookClientProperties",
+      "sourceType": "com.polarbookshop.orderservice.book.BookClientProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "polar.catalog-service-books-url",
+      "type": "java.lang.String",
+      "sourceType": "com.polarbookshop.orderservice.book.BookClientProperties"
+    },
+    {
+      "name": "polar.catalog-service-url",
+      "type": "java.net.URI",
+      "description": "The URL of the CatalogService application.",
+      "sourceType": "com.polarbookshop.orderservice.book.BookClientProperties"
+    }
+  ],
+  "hints": []
+}

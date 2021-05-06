@@ -1,0 +1,24 @@
+com/polarbookshop/orderservice/order/domain/Order.java
+ com.polarbookshop.orderservice.order.domain.Order
+com/polarbookshop/orderservice/order/domain/OrderRepository.java
+ com.polarbookshop.orderservice.order.domain.OrderRepository
+com/polarbookshop/orderservice/book/Book.java
+ com.polarbookshop.orderservice.book.Book
+com/polarbookshop/orderservice/order/web/OrderRequest.java
+ com.polarbookshop.orderservice.order.web.OrderRequest
+com/polarbookshop/orderservice/order/persistence/PersistableEntity.java
+ com.polarbookshop.orderservice.order.persistence.PersistableEntity
+com/polarbookshop/orderservice/order/domain/OrderService.java
+ com.polarbookshop.orderservice.order.domain.OrderService
+com/polarbookshop/orderservice/book/BookClient.java
+ com.polarbookshop.orderservice.book.BookClient
+com/polarbookshop/orderservice/order/domain/OrderStatus.java
+ com.polarbookshop.orderservice.order.domain.OrderStatus
+com/polarbookshop/orderservice/order/persistence/DataConfig.java
+ com.polarbookshop.orderservice.order.persistence.DataConfig
+com/polarbookshop/orderservice/OrderServiceApplication.java
+ com.polarbookshop.orderservice.OrderServiceApplication
+com/polarbookshop/orderservice/book/BookClientProperties.java
+ com.polarbookshop.orderservice.book.BookClientProperties
+com/polarbookshop/orderservice/order/web/OrderController.java
+ com.polarbookshop.orderservice.order.web.OrderController

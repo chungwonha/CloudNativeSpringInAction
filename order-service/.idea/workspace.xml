@@ -41,50 +41,9 @@
       <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bootJarMainClassName" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/polarbookshop/orderservice/OrderServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/polarbookshop/orderservice/book/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/polarbookshop/orderservice/book/BookClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/polarbookshop/orderservice/book/BookClientProperties.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/polarbookshop/orderservice/order/domain/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/polarbookshop/orderservice/order/domain/OrderRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/polarbookshop/orderservice/order/domain/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/polarbookshop/orderservice/order/domain/OrderStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/polarbookshop/orderservice/order/persistence/DataConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/polarbookshop/orderservice/order/persistence/PersistableEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/polarbookshop/orderservice/order/web/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/polarbookshop/orderservice/order/web/OrderRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/polarbookshop/orderservice/OrderServiceApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/polarbookshop/orderservice/book/BookClientTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/polarbookshop/orderservice/order/domain/OrderRepositoryR2dbcTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/polarbookshop/orderservice/order/web/OrderControllerWebFluxTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/order-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.polarbookshop.orderservice.OrderServiceApplicationTests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.polarbookshop.orderservice.book.BookClientTests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.polarbookshop.orderservice.order.domain.OrderRepositoryR2dbcTests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.polarbookshop.orderservice.order.web.OrderControllerWebFluxTests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.polarbookshop.orderservice.book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.polarbookshop.orderservice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.polarbookshop.orderservice.order.domain.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.polarbookshop.orderservice.order.web.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/db/migration/V1__Initial_schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.polarbookshop.orderservice.OrderServiceApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.polarbookshop.orderservice.book.BookClientTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.polarbookshop.orderservice.order.domain.OrderRepositoryR2dbcTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.polarbookshop.orderservice.order.web.OrderControllerWebFluxTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polar-deployment/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../polar-deployment/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620011776435</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="quick test">
+      <created>1620267313806</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620267313806</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

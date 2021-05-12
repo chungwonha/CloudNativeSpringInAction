@@ -23,15 +23,31 @@ ext {
 }
 
 dependencies {
-
-	implementation 'org.springframework.boot:spring-boot-starter'
-	implementation 'org.springframework.cloud:spring-cloud-function-context'
-	implementation 'org.projectlombok:lombok:1.18.18'
+	implementation 'org.springframework.cloud:spring-cloud-stream-binder-rabbit'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'io.projectreactor:reactor-test'
+
+	testImplementation("org.springframework.cloud:spring-cloud-stream") {
+		artifact {
+			name = "spring-cloud-stream"
+			extension = "jar"
+			type ="test-jar"
+			classifier = "test-binder"
+		}
+	}
 }
+//dependencies {
+//	implementation 'org.springframework.cloud:spring-cloud-stream-binder-rabbit'
+////	implementation 'org.springframework.boot:spring-boot-starter'
+////	implementation 'org.springframework.cloud:spring-cloud-function-context'
+////	implementation 'org.projectlombok:lombok:1.18.18'
+//	compileOnly 'org.projectlombok:lombok'
+//	annotationProcessor 'org.projectlombok:lombok'
+//	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+//	testImplementation 'io.projectreactor:reactor-test'
+//}
 
 dependencyManagement {
 	imports {

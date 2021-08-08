@@ -2,19 +2,22 @@ package com.polarbookshop.orderservice.order.domain;
 
 import com.polarbookshop.orderservice.book.Book;
 import com.polarbookshop.orderservice.book.BookClient;
+import com.polarbookshop.orderservice.order.event.OrderAcceptedMessage;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import org.springframework.stereotype.Service;
+
+import java.util.function.Consumer;
 
 @Service
 @RequiredArgsConstructor
 public class OrderService {
 
-    @Autowired
-    private BookClient bookClient;
-
+    private final BookClient bookClient;
+    private final Consumer<Order> acceptedOrderConsumer;
     private final OrderRepository orderRepository;
 
     public Flux<Order> getAllOrders() {
@@ -25,11 +28,13 @@ public class OrderService {
         return orderRepository.findById(id);
     }
 
+    @Transactional
     public Mono<Order> submitOrder(String isbn, int quantity) {
         return bookClient.getBookByIsbn(isbn)
                 .flatMap(book -> Mono.just(buildAcceptedOrder(book, quantity)))
                 .defaultIfEmpty(buildRejectedOrder(isbn, quantity))
-                .flatMap(orderRepository::save);
+                .flatMap(orderRepository::save)
+                .doOnNext(acceptedOrderConsumer);
     }
 
     private Order buildAcceptedOrder(Book book, int quantity) {

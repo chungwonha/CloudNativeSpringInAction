@@ -40,3 +40,11 @@ services:
     environment:
       - RABBITMQ_DEFAULT_USER=user
       - RABBITMQ_DEFAULT_PASS=password
+  polar-keycloak:
+    image: jboss/keycloak:14.0.0
+    container_name: "polar-keycloak"
+    environment:
+      KEYCLOAK_USER: admin
+      KEYCLOAK_PASSWORD: password
+    ports:
+      - 8080:8080

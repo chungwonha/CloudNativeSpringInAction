@@ -15,7 +15,6 @@
     {
       "name": "polar.catalog-service-url",
       "type": "java.net.URI",
-      "description": "The URL of the CatalogService application.",
       "sourceType": "com.polarbookshop.orderservice.book.BookClientProperties"
     }
   ],

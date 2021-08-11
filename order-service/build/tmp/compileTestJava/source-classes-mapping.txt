@@ -2,7 +2,7 @@ com/polarbookshop/orderservice/order/domain/OrderRepositoryR2dbcTests.java
  com.polarbookshop.orderservice.order.domain.OrderRepositoryR2dbcTests
 com/polarbookshop/orderservice/OrderServiceApplicationTests.java
  com.polarbookshop.orderservice.OrderServiceApplicationTests
-com/polarbookshop/orderservice/order/web/OrderControllerWebFluxTests.java
- com.polarbookshop.orderservice.order.web.OrderControllerWebFluxTests
 com/polarbookshop/orderservice/book/BookClientTests.java
  com.polarbookshop.orderservice.book.BookClientTests
+com/polarbookshop/orderservice/order/web/OrderControllerWebFluxTests.java
+ com.polarbookshop.orderservice.order.web.OrderControllerWebFluxTests
